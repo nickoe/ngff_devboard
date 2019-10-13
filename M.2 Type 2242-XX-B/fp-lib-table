@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name M.2)(type KiCad)(uri ${KIPRJMOD}/M.2.pretty)(options "")(descr ""))
+  (lib (name aausat)(type KiCad)(uri /home/nickoe/aausat6/hardware/aausat.pretty)(options "")(descr ""))
+)

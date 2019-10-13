@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M.2_NGFF_Socket2_KeyB_SSIC_Adapter
+D From table 30 of PCI Express M.2 Specification Revision 1.1 December 9, 2016
+$ENDCMP
+#
+#End Doc Library

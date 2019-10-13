@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name M.2)(type Legacy)(uri ${KIPRJMOD}/M.2.lib)(options "")(descr ""))
+  (lib (name aausat)(type Legacy)(uri /home/nickoe/aausat6/hardware/aausat.lib)(options "")(descr ""))
+)
