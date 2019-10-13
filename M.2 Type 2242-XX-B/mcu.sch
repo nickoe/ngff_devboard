@@ -908,7 +908,7 @@ AR Path="/5DC3053D/5DCB42E4" Ref="SJ2"  Part="1"
 AR Path="/5DA34F82/5DCB42E4" Ref="SJ?"  Part="1" 
 F 0 "SJ2" H 5950 3555 50  0000 C CNN
 F 1 "BOOT1" H 5950 3464 50  0000 C CNN
-F 2 "aausat:SolderJumper-3_P2.54mm_Bridged12_RoundedPad" H 5950 3350 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 5950 3350 50  0001 C CNN
 F 3 "~" H 5950 3350 50  0001 C CNN
 	1    5950 3350
 	0    1    -1   0   
@@ -954,7 +954,7 @@ AR Path="/5DC3053D/5DCB4304" Ref="SJ1"  Part="1"
 AR Path="/5DA34F82/5DCB4304" Ref="SJ?"  Part="1" 
 F 0 "SJ1" H 1200 1855 50  0000 C CNN
 F 1 "BOOT0" H 1200 1764 50  0000 C CNN
-F 2 "aausat:SolderJumper-3_P2.54mm_Bridged12_RoundedPad" H 1200 1650 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1200 1650 50  0001 C CNN
 F 3 "~" H 1200 1650 50  0001 C CNN
 	1    1200 1650
 	0    -1   -1   0   
