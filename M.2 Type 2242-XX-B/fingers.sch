@@ -314,39 +314,6 @@ F 3 "" H 7250 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0314
-U 1 1 5E0E23B3
-P 7250 5700
-F 0 "#PWR0314" H 7250 5550 50  0001 C CNN
-F 1 "+3.3V" H 7265 5873 50  0000 C CNN
-F 2 "" H 7250 5700 50  0001 C CNN
-F 3 "" H 7250 5700 50  0001 C CNN
-	1    7250 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP301
-U 1 1 5E0DD0F3
-P 7250 5900
-F 0 "JP301" V 7296 5968 50  0000 L CNN
-F 1 "CONFIG_0" V 7205 5968 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 7250 5900 50  0001 C CNN
-F 3 "~" H 7250 5900 50  0001 C CNN
-	1    7250 5900
-	0    1    -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JP304
-U 1 1 5E0E3B56
-P 10500 5900
-F 0 "JP304" V 10546 5968 50  0000 L CNN
-F 1 "CONFIG_3" V 10455 5968 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10500 5900 50  0001 C CNN
-F 3 "~" H 10500 5900 50  0001 C CNN
-	1    10500 5900
-	0    1    -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0317
 U 1 1 5E0E6DC0
 P 8350 6100
@@ -357,40 +324,14 @@ F 3 "" H 8350 6100 50  0001 C CNN
 	1    8350 6100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR0316
-U 1 1 5E0E6DCA
-P 8350 5700
-F 0 "#PWR0316" H 8350 5550 50  0001 C CNN
-F 1 "+3.3V" H 8365 5873 50  0000 C CNN
-F 2 "" H 8350 5700 50  0001 C CNN
-F 3 "" H 8350 5700 50  0001 C CNN
-	1    8350 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP302
-U 1 1 5E0E6DD4
-P 8350 5900
-F 0 "JP302" V 8396 5968 50  0000 L CNN
-F 1 "CONFIG_1" V 8305 5968 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 8350 5900 50  0001 C CNN
-F 3 "~" H 8350 5900 50  0001 C CNN
-	1    8350 5900
-	0    1    -1   0   
-$EndComp
 Text Label 4950 4700 2    50   ~ 0
 CONFIG_0
 Wire Wire Line
 	4950 4700 4550 4700
 Text Label 6700 5900 0    50   ~ 0
 CONFIG_0
-Wire Wire Line
-	6700 5900 7100 5900
 Text Label 7800 5900 0    50   ~ 0
 CONFIG_1
-Wire Wire Line
-	7800 5900 8200 5900
 $Comp
 L power:GND #PWR0319
 U 1 1 5E0EB4BE
@@ -402,32 +343,8 @@ F 3 "" H 9450 6100 50  0001 C CNN
 	1    9450 6100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR0318
-U 1 1 5E0EB4C8
-P 9450 5700
-F 0 "#PWR0318" H 9450 5550 50  0001 C CNN
-F 1 "+3.3V" H 9465 5873 50  0000 C CNN
-F 2 "" H 9450 5700 50  0001 C CNN
-F 3 "" H 9450 5700 50  0001 C CNN
-	1    9450 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP303
-U 1 1 5E0EB4D2
-P 9450 5900
-F 0 "JP303" V 9496 5968 50  0000 L CNN
-F 1 "CONFIG_2" V 9405 5968 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 9450 5900 50  0001 C CNN
-F 3 "~" H 9450 5900 50  0001 C CNN
-	1    9450 5900
-	0    1    -1   0   
-$EndComp
 Text Label 8900 5900 0    50   ~ 0
 CONFIG_2
-Wire Wire Line
-	8900 5900 9300 5900
 Text Label 9950 5900 0    50   ~ 0
 CONFIG_3
 Wire Wire Line
@@ -448,28 +365,6 @@ Wire Wire Line
 	4950 2000 4550 2000
 Wire Wire Line
 	4550 2300 4950 2300
-$Comp
-L power:GND #PWR0321
-U 1 1 5E0FBF8A
-P 10500 6100
-F 0 "#PWR0321" H 10500 5850 50  0001 C CNN
-F 1 "GND" H 10505 5927 50  0000 C CNN
-F 2 "" H 10500 6100 50  0001 C CNN
-F 3 "" H 10500 6100 50  0001 C CNN
-	1    10500 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0320
-U 1 1 5E0FCD03
-P 10500 5700
-F 0 "#PWR0320" H 10500 5550 50  0001 C CNN
-F 1 "+3.3V" H 10515 5873 50  0000 C CNN
-F 2 "" H 10500 5700 50  0001 C CNN
-F 3 "" H 10500 5700 50  0001 C CNN
-	1    10500 5700
-	1    0    0    -1  
-$EndComp
 Text Notes 6700 5400 0    50   ~ 0
 Using Add-In Card interface of "WWAN – USB3.1 Gen1", Port Configration 0.
 Text HLabel 2950 4100 0    50   BiDi ~ 0
@@ -518,4 +413,17 @@ RESET#
 Wire Wire Line
 	4650 2400 4550 2400
 NoConn ~ -3150 5500
+Wire Wire Line
+	7250 5900 7250 6100
+Wire Wire Line
+	6700 5900 7250 5900
+Wire Wire Line
+	8350 5900 8350 6100
+Wire Wire Line
+	7800 5900 8350 5900
+Wire Wire Line
+	9450 5900 9450 6100
+Wire Wire Line
+	8900 5900 9450 5900
+NoConn ~ 10350 5900
 $EndSCHEMATC
