@@ -165,24 +165,6 @@ $EndComp
 Text Notes 7600 800  0    50   ~ 0
 NOTE: This is to make it easy to hack\nif we need to test with seperate supply.
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
-U 1 1 5DAD1973
-P 7250 1000
-AR Path="/5CA93306/5DAD1973" Ref="JP?"  Part="1" 
-AR Path="/5CA93143/5DAD1973" Ref="JP?"  Part="1" 
-AR Path="/5DA4D1CA/5DAD1973" Ref="JP?"  Part="1" 
-AR Path="/5DA99182/5DAD1973" Ref="JP5"  Part="1" 
-AR Path="/5DC39AF2/5DAD1973" Ref="JP?"  Part="1" 
-AR Path="/5DC39DB3/5DAD1973" Ref="JP?"  Part="1" 
-AR Path="/5DC39F66/5DAD1973" Ref="JP?"  Part="1" 
-F 0 "JP5" V 7204 1068 50  0000 L CNN
-F 1 "SolderJumper_2_Bridged" V 7295 1068 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 7250 1000 50  0001 C CNN
-F 3 "~" H 7250 1000 50  0001 C CNN
-	1    7250 1000
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5DAD193A
 P 3500 3450
@@ -623,7 +605,7 @@ $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5DAD179E
-P 7250 850
+P 7250 1150
 AR Path="/5CA93306/5DAD179E" Ref="#PWR?"  Part="1" 
 AR Path="/5CA93143/5DAD179E" Ref="#PWR?"  Part="1" 
 AR Path="/5DA4D1CA/5DAD179E" Ref="#PWR?"  Part="1" 
@@ -631,11 +613,11 @@ AR Path="/5DA99182/5DAD179E" Ref="#PWR0118"  Part="1"
 AR Path="/5DC39AF2/5DAD179E" Ref="#PWR?"  Part="1" 
 AR Path="/5DC39DB3/5DAD179E" Ref="#PWR?"  Part="1" 
 AR Path="/5DC39F66/5DAD179E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0118" H 7250 700 50  0001 C CNN
-F 1 "+3.3V" H 7265 1023 50  0000 C CNN
-F 2 "" H 7250 850 50  0001 C CNN
-F 3 "" H 7250 850 50  0001 C CNN
-	1    7250 850 
+F 0 "#PWR0118" H 7250 1000 50  0001 C CNN
+F 1 "+3.3V" H 7265 1323 50  0000 C CNN
+F 2 "" H 7250 1150 50  0001 C CNN
+F 3 "" H 7250 1150 50  0001 C CNN
+	1    7250 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -5295,7 +5277,7 @@ AR Path="/5DC39DB3/5DAF2CDE" Ref="L?"  Part="1"
 AR Path="/5DC39F66/5DAF2CDE" Ref="L?"  Part="1" 
 F 0 "L6" V 2490 4550 50  0000 C CNN
 F 1 "20nH" V 2399 4550 50  0000 C CNN
-F 2 "" H 2300 4550 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 2300 4550 50  0001 C CNN
 F 3 "~" H 2300 4550 50  0001 C CNN
 	1    2300 4550
 	0    -1   -1   0   
@@ -5310,7 +5292,7 @@ AR Path="/5DC39DB3/5DAF858C" Ref="L?"  Part="1"
 AR Path="/5DC39F66/5DAF858C" Ref="L?"  Part="1" 
 F 0 "L5" V 1990 4550 50  0000 C CNN
 F 1 "22nH" V 1899 4550 50  0000 C CNN
-F 2 "" H 1800 4550 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 1800 4550 50  0001 C CNN
 F 3 "~" H 1800 4550 50  0001 C CNN
 	1    1800 4550
 	0    -1   -1   0   
@@ -5325,7 +5307,7 @@ AR Path="/5DC39DB3/5DAFE9B7" Ref="C?"  Part="1"
 AR Path="/5DC39F66/5DAFE9B7" Ref="C?"  Part="1" 
 F 0 "C35" H 2665 4846 50  0000 L CNN
 F 1 "C" H 2665 4755 50  0000 L CNN
-F 2 "" H 2588 4650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2588 4650 50  0001 C CNN
 F 3 "~" H 2550 4800 50  0001 C CNN
 	1    2550 4800
 	1    0    0    -1  
@@ -5340,7 +5322,7 @@ AR Path="/5DC39DB3/5DAFF0A0" Ref="C?"  Part="1"
 AR Path="/5DC39F66/5DAFF0A0" Ref="C?"  Part="1" 
 F 0 "C34" H 2165 4846 50  0000 L CNN
 F 1 "6.8pF" H 2165 4755 50  0000 L CNN
-F 2 "" H 2088 4650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 4650 50  0001 C CNN
 F 3 "~" H 2050 4800 50  0001 C CNN
 	1    2050 4800
 	1    0    0    -1  
@@ -5355,7 +5337,7 @@ AR Path="/5DC39DB3/5DB04DA8" Ref="C?"  Part="1"
 AR Path="/5DC39F66/5DB04DA8" Ref="C?"  Part="1" 
 F 0 "C4" H 1665 4846 50  0000 L CNN
 F 1 "C" H 1665 4755 50  0000 L CNN
-F 2 "" H 1588 4650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1588 4650 50  0001 C CNN
 F 3 "~" H 1550 4800 50  0001 C CNN
 	1    1550 4800
 	1    0    0    -1  
@@ -5448,7 +5430,7 @@ AR Path="/5DC39DB3/5DB7B8F8" Ref="L?"  Part="1"
 AR Path="/5DC39F66/5DB7B8F8" Ref="L?"  Part="1" 
 F 0 "L4" V 1490 4550 50  0000 C CNN
 F 1 "0R" V 1399 4550 50  0000 C CNN
-F 2 "" H 1300 4550 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 1300 4550 50  0001 C CNN
 F 3 "~" H 1300 4550 50  0001 C CNN
 	1    1300 4550
 	0    -1   -1   0   
