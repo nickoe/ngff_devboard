@@ -6,7 +6,7 @@ other things. This in turn means a maximum component area of 30mm x
 2242-xx-B-M, but this is smaller, but should fit a normal WWAN socket
 location as well.
 
-[AetherJack](misc/mostly_top_raytracing_no_socket.png)
+![AetherJack](misc/mostly_top_raytracing_no_socket.png)
 
 
 Or A + E?  Can we do A + B + E?
