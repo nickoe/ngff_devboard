@@ -2,7 +2,7 @@
 
   (general
     (thickness 0.8)
-    (drawings 19)
+    (drawings 20)
     (tracks 43)
     (zones 0)
     (modules 7)
@@ -1300,6 +1300,9 @@
     )
   )
 
+  (gr_text 20191020 (at 135 59.5 180) (layer B.Cu) (tstamp 5DACDCC5)
+    (effects (font (size 1 0.9) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "AetherJack\nProgramming\nAdapter" (at 153.7 57.9) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
