@@ -1,3 +1,5 @@
+View this project on [CADLAB.io](https://cadlab.io/project/2228). 
+
 This is a project to make "something" to put in the WWAN slot of my
 laptop. This means M.2 NGFF with key B. Lets try to use USB as a
 minimum. Maybe som STM32 chip as a start. Maybe it can be connected to
